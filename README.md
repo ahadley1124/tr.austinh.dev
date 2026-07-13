@@ -155,8 +155,8 @@ Any future official Team Rubicon logo or photography must come from an approved 
 
 The public personal phone number from the source site is retained:
 
-- Display: `419-528-8497`
-- Link: `tel:+14195288497`
+- Display: `419-207-0762`
+- Link: `tel:+14192070762`
 
 The H2 Technologies business email is intentionally not used. The Team Rubicon-related email value is located near the top of `script.js`.
 
