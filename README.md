@@ -110,7 +110,13 @@ Place approved images in `assets/`, document them in `assets/README.md`, and add
 
 ### Configure The Team Rubicon-Related Email Address
 
-Replace `REPLACE_WITH_TEAM_RUBICON_EMAIL` in `script.js` with Austin's approved Team Rubicon-related contact email before production deployment. Until this is done, the site displays a non-clickable notice instead of a working `mailto:` link.
+The Team Rubicon-related contact email is configured in `script.js`:
+
+```text
+Austin.hadley@teamrubiconusa.org
+```
+
+If this address changes, update the `TEAM_RUBICON_EMAIL` value in `script.js`.
 
 ### Update External Official Links
 
@@ -152,7 +158,7 @@ The public personal phone number from the source site is retained:
 - Display: `419-528-8497`
 - Link: `tel:+14195288497`
 
-The H2 Technologies business email is intentionally not used. The Team Rubicon-related email placeholder is located near the top of `script.js`.
+The H2 Technologies business email is intentionally not used. The Team Rubicon-related email value is located near the top of `script.js`.
 
 ## Trademark And Branding Safeguards
 
@@ -172,7 +178,7 @@ Cloudflare Pages headers are defined in `_headers`, including a restrictive Cont
 
 ## Pre-Deployment Checklist
 
-- [ ] Replace Team Rubicon email placeholder
+- [x] Replace Team Rubicon email placeholder
 - [ ] Confirm all public qualification names
 - [ ] Confirm whether Co-ops needs expanded wording
 - [ ] Review appointment description
@@ -189,5 +195,4 @@ Cloudflare Pages headers are defined in `_headers`, including a restrictive Cont
 
 ## TODO
 
-- Replace `REPLACE_WITH_TEAM_RUBICON_EMAIL` with Austin's approved Team Rubicon-related contact email before production deployment.
 - Confirm the preferred public expansion or wording for `Co-ops`.

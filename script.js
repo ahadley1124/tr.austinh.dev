@@ -1,13 +1,12 @@
 // Contact configuration
-// Replace this value only after Austin has an approved Team Rubicon-related public contact email.
-// The placeholder is intentionally not converted into a mailto link.
-const TEAM_RUBICON_EMAIL = "REPLACE_WITH_TEAM_RUBICON_EMAIL";
+// Austin's approved Team Rubicon-related public contact email.
+const TEAM_RUBICON_EMAIL = "Austin.hadley@teamrubiconusa.org";
 
 document.documentElement.classList.add("js");
 
 const emailTarget = document.querySelector("[data-email-status]");
 
-if (emailTarget && TEAM_RUBICON_EMAIL !== "REPLACE_WITH_TEAM_RUBICON_EMAIL") {
+if (emailTarget && TEAM_RUBICON_EMAIL.includes("@")) {
   const emailLink = document.createElement("a");
   emailLink.href = `mailto:${TEAM_RUBICON_EMAIL}`;
   emailLink.textContent = TEAM_RUBICON_EMAIL;
