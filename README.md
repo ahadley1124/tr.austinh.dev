@@ -118,6 +118,10 @@ Austin.hadley@teamrubiconusa.org
 
 If this address changes, update the `TEAM_RUBICON_EMAIL` value in `script.js`.
 
+### Update The vCard Download
+
+The `Add Contact Information` button in the hero downloads a browser-generated vCard from `script.js`. Update `TEAM_RUBICON_EMAIL`, `CONTACT_PHONE_DISPLAY`, `CONTACT_PHONE_E164`, the `TITLE`, and the `NOTE` in the vCard block when public contact or role wording changes.
+
 ### Update External Official Links
 
 Official Team Rubicon links are currently:
@@ -158,7 +162,7 @@ The public personal phone number from the source site is retained:
 - Display: `419-207-0762`
 - Link: `tel:+14192070762`
 
-The H2 Technologies business email is intentionally not used. The Team Rubicon-related email value is located near the top of `script.js`.
+The H2 Technologies business email is intentionally not used. The Team Rubicon-related email, phone constants, and vCard content are located near the top of `script.js`.
 
 ## Trademark And Branding Safeguards
 
